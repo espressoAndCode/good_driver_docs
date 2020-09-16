@@ -9,7 +9,7 @@ This project requires [Docker](https://docs.docker.com/get-docker/) and [Docker 
 
 ### Clone the Repo
 ```
-$ git clone 
+$ git clone https://F20-Team14-Borbely-Bailey-Shaw@dev.azure.com/F20-Team14-Borbely-Bailey-Shaw/F20-Team14-Borbely.Bailey.Shaw/_git/F20-Team14-Borbely.Bailey.Shaw
 $ cd F20-Team14-Borbely.Bailey.Shaw
 ```
 ### Set the following environment variable
