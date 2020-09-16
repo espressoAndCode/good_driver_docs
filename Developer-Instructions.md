@@ -166,8 +166,35 @@ services
 
 ```
 
+## Additional Goodies
 
-
+Lint the Python code with Flake8:
+```
+$ docker-compose exec users flake8 project
+```
+Run Black and isort with check options:
+```
+$ docker-compose exec users black project --check
+$ docker-compose exec users /bin/sh -c "isort project/**/*.py --check-only"
+```
+Need to make changes based on Black and isort recommendations?
+```
+$ docker-compose exec users black project
+$ docker-compose exec users /bin/sh -c "isort project/**/*.py"
+```
+Run the client-side tests with coverage:
+```
+$ docker-compose exec client react-scripts test --coverage
+```
+Lint the JavaScript:
+```
+$ docker-compose exec client npm run lint
+```
+Run Prettier:
+```
+$ docker-compose exec client npm run prettier:check
+$ docker-compose exec client npm run prettier:write
+```
 
 
 
