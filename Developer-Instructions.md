@@ -138,8 +138,33 @@ client:
       - './services/client:/usr/src/app'
 ```
 These commands create *bindings* that connect the docker container with your local file system. This means that you can open the project in your code editor, make changes, and immediately see those changes updated into the running container.
+If you navigate to the top-level directory in the project, `F20-Team14-Borbely.Bailey.Shaw`, and open your code editor you should be able to access any part of the code for development. 
 
+## Client Development
+The only folders that you will generally need to work in for client-side development are located at:
+```
+services
+    client
+        src
 
+AND
+
+services
+    client
+        src
+            components
+```
+
+## Server-side Development
+The only folder that you will generally need to work in for server-side development is located at:
+```
+
+services
+    users
+        project
+           api
+
+```
 
 
 
