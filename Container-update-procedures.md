@@ -22,12 +22,22 @@ docker image prune
 docker network prune
 ```
 
-5. Rebuild the setup.
+5. Delete all containers using the following command:
+```
+docker rm -f $(docker ps -a -q)
+```
+
+6. Delete all volumes using the following command:
+```
+docker volume rm $(docker volume ls -q)
+```
+
+7. Rebuild the setup.
 ```
 docker-compose build 
 ```
 
-6. Run the new setup.
+8. Run the new setup.
 ```
 docker-compose up
 ```
