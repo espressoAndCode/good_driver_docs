@@ -62,6 +62,7 @@ $ docker-compose exec server python manage.py recreate_db
 ### Seed the database
 ```
 $ docker-compose exec server python manage.py seed_db
+$ docker-compose exec server python manage.py seed_events
 ```
 The database uses a persistent volume, meaning that you only need to create the database and seed it with data once. The data will be preserved between container restarts. If you have added a bunch of data and want to reset, you can nuke the database with the `recreate_db` command. It's optional to run `seed_db`, but it gives a few values to start off.
 
