@@ -7,51 +7,29 @@
 docker-compose down
 ```
 
-2. Remove all stopped Docker containers. (Select 'y' at the warning message)
-```
-docker container prune
-```
-
-3. Remove all unreferenced Docker volumes. (Select 'y' at the warning message)
-```
-docker image prune
-```
-
-4. Remove all unused Docker networks. (Select 'y' at the warning message)
-```
-docker network prune
-```
-
-5. Delete all containers using the following command:
+2. Delete all containers using the following command:
 ```
 docker rm -f $(docker ps -a -q)
 ```
 
-6. Delete all volumes using the following command:
+3. Delete all volumes using the following command:
 ```
 docker volume rm $(docker volume ls -q)
 ```
 
-7. Rebuild the setup.
+4. Rebuild the setup.
 ```
 docker-compose build 
 ```
 
-8. Run the new setup.
+5. Run the new setup.
 ```
 docker-compose up
 ```
 
-### Create the database
+### Create and seed the database
 
 ```
-$ docker-compose exec server python manage.py recreate_db
+$ docker-compose exec server python manage.py reset_db
 ```
 
-### Seed the database
-```
-$ docker-compose exec server python manage.py seed_db
-```
----
-
-This should do the trick!
