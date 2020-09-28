@@ -58,6 +58,7 @@ If everything is running correctly on the server you should see:
 ```
 $ docker-compose exec server python manage.py reset_db
 ```
+**NOTE - If you get a key constraint error after running this command, run it again and see if it works. If not, follow the `Container update procedures` page in the wiki.**
 
 The database uses a persistent volume, meaning that you only need to create the database and seed it with data once. The data will be preserved between container restarts. If you have added a bunch of data and want to reset, you can nuke the database with the `reset_db` command.
 
@@ -138,7 +139,7 @@ If you navigate to the top-level directory in the project, `F20-Team14-Borbely.B
 
 ## Client Development
 The only folders that you will generally need to work in for client-side development are located at:
-```
+````
 services
     client
         src
