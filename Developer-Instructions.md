@@ -65,12 +65,12 @@ The database uses a persistent volume, meaning that you only need to create the 
 
 Want to access the *Postgres* database via psql?
 ```
-$ docker-compose exec users-db psql -U postgres
+$ docker-compose exec good-drivers-db psql -U postgres
 ```
 Then, you can connect to the database and run SQL queries. For example:
 ```
-# \c users_dev
-# select * from users;
+# \c good_drivers_dev
+# select * from users; //or another table
 ```
 
 ---
