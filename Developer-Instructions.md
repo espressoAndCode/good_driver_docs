@@ -139,13 +139,13 @@ If you navigate to the top-level directory in the project, `F20-Team14-Borbely.B
 
 ## Client Development
 The only folders that you will generally need to work in for client-side development are located at:
-````
+```
 services
     client
         src
-
+```
 AND
-
+```
 services
     client
         src
