@@ -19,7 +19,7 @@ docker volume rm $(docker volume ls -q)
 
 4. Rebuild the setup.
 ```
-docker-compose build 
+docker-compose build --no-cache 
 ```
 
 5. Run the new setup.
