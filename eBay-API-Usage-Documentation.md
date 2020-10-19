@@ -14,15 +14,18 @@
 
 ## eBay 'FINDING' API
 
-Here is a sample call to the Finding API:
+There are two parts required in the `POST` data object when creating a call to the Finding API, 
 
 ```
-    f.execute('findItemsAdvanced', 
-                {'keywords': 'camera'}
-             )
+{
+  "keywords": [
+    "truck",
+    "floor mat"
+  ]
+}
 ```
 
-Here is a sample return object for one item from that call:
+Each call will return a list of up to 100 items matching the keyword criteria. Here is a sample return object for one item from that call:
 
 ```
 item: {
