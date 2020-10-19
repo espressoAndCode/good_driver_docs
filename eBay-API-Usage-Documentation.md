@@ -23,9 +23,8 @@ There are two parts required in the `POST` data object when creating a call to t
   ]
 }
 ```
-The `source` value must be one of the 
-
- 
+The `source` value must be one of the Vendors listed in the Source table of the database. I recommend that you create a dropdown list from a call to `GET /sources` which will return a list of all sources in the DB. 
+Also, notice that `keywords` is a list of strings, even if there is only one item in the list. You can enter as many search elements as required, and spaces are accepted as long as they are enclosed in quotation marks as shown below: 
 
 ```
 {
