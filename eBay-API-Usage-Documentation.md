@@ -18,76 +18,79 @@ Here is a sample call to the Finding API:
 
 ```
     f.execute('findItemsAdvanced', 
-                {'keywords': 'shoes'}
+                {'keywords': 'camera'}
              )
 ```
 
 Here is a sample return object for one item from that call:
 
 ```
- res: {
-   'itemId': '154101365612',
-   'title': "adidas Originals OZWEEGO Shoes Men's",
-   'globalId': 'EBAY-US',
-   'subtitle': 'Free Shipping and Free 30 Day Returns on All Orders',
-   'primaryCategory': {
-     'categoryId': '15709',
-     'categoryName': 'Athletic Shoes'
-   },
-   'galleryURL': 'https://thumbs1.ebaystatic.com/pict/154101365612404000000004_1.jpg',
-   'viewItemURL': 'https://www.ebay.com/itm/adidas-Originals-OZWEEGO-Shoes-Mens-/154101365612?var=454239212707',
-   'paymentMethod': 'PayPal',
-   'autoPay': 'true',
-   'postalCode': '293**',
-   'location': 'Spartanburg,SC,USA',
-   'country': 'US',
-   'shippingInfo': {
-     'shippingServiceCost': {
-       '_currencyId': 'USD',
-       'value': '0.0'
-     },
-     'shippingType': 'Free',
-     'shipToLocations': 'Worldwide',
-     'expeditedShipping': 'false',
-     'oneDayShippingAvailable': 'false',
-     'handlingTime': '4'
-   },
-   'sellingStatus': {
-     'currentPrice': {
-       '_currencyId': 'USD',
-       'value': '35.99'
-     },
-     'convertedCurrentPrice': {
-       '_currencyId': 'USD',
-       'value': '35.99'
-     },
-     'sellingState': 'Active',
-     'timeLeft': 'P4DT18H52M9S'
-   },
-   'listingInfo': {
-     'bestOfferEnabled': 'false',
-     'buyItNowAvailable': 'false',
-     'startTime': datetime.datetime(2020, 9, 24, 10, 17, 44),
-     'endTime': datetime.datetime(2020, 10, 24, 10, 17, 44),
-     'listingType': 'FixedPrice',
-     'gift': 'false',
-     'watchCount': '28'
-   },
-   'returnsAccepted': 'true',
-   'condition': {
-     'conditionId': '1000',
-     'conditionDisplayName': 'New with box'
-   },
-   'isMultiVariationListing': 'true',
-   'discountPriceInfo': {
-     'originalRetailPrice': {
-       '_currencyId': 'USD',
-       'value': '110.0'
-     },
-     'pricingTreatment': 'STP',
-     'soldOnEbay': 'false',
-     'soldOffEbay': 'false'
-   },
-   'topRatedListing': 'false'
- }
+item: {
+  'itemId': '202637310539',
+  'title': 'Canon EOS Rebel T7 24.1MP Digital SLR Camera with EF-S 18-55 IS II Lens',
+  'globalId': 'EBAY-US',
+  'primaryCategory': {
+    'categoryId': '31388',
+    'categoryName': 'Digital Cameras'
+  },
+  'galleryURL': 'https://thumbs4.ebaystatic.com/m/m09-7Oxghw4Owumm5fmWMGA/140.jpg',
+  'viewItemURL': 'https://www.ebay.com/itm/Canon-EOS-Rebel-T7-24-1MP-Digital-SLR-Camera-EF-S-18-55-II-Lens-/202637310539',
+  'productId': {
+    '_type': 'ReferenceID',
+    'value': '4030072379'
+  },
+  'paymentMethod': 'PayPal',
+  'autoPay': 'true',
+  'postalCode': '112**',
+  'location': 'Brooklyn,NY,USA',
+  'country': 'US',
+  'shippingInfo': {
+    'shippingServiceCost': {
+      '_currencyId': 'USD',
+      'value': '0.0'
+    },
+    'shippingType': 'Free',
+    'shipToLocations': 'Worldwide',
+    'expeditedShipping': 'true',
+    'oneDayShippingAvailable': 'true',
+    'handlingTime': '1'
+  },
+  'sellingStatus': {
+    'currentPrice': {
+      '_currencyId': 'USD',
+      'value': '372.99'
+    },
+    'convertedCurrentPrice': {
+      '_currencyId': 'USD',
+      'value': '372.99'
+    },
+    'sellingState': 'Active',
+    'timeLeft': 'P8DT4H22M9S'
+  },
+  'listingInfo': {
+    'bestOfferEnabled': 'false',
+    'buyItNowAvailable': 'false',
+    'startTime': datetime.datetime(2019, 3, 27, 20, 6, 40),
+    'endTime': datetime.datetime(2020, 10, 27, 20, 6, 40),
+    'listingType': 'FixedPrice',
+    'gift': 'false',
+    'watchCount': '180'
+  },
+  'returnsAccepted': 'true',
+  'condition': {
+    'conditionId': '1000',
+    'conditionDisplayName': 'New'
+  },
+  'isMultiVariationListing': 'false',
+  'discountPriceInfo': {
+    'originalRetailPrice': {
+      '_currencyId': 'USD',
+      'value': '447.0'
+    },
+    'pricingTreatment': 'STP',
+    'soldOnEbay': 'false',
+    'soldOffEbay': 'false'
+  },
+  'topRatedListing': 'true'
+}
 ```
