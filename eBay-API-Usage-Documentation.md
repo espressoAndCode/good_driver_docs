@@ -14,7 +14,18 @@
 
 ## eBay 'FINDING' API
 
-There are two parts required in the `POST` data object when creating a call to the Finding API, 
+There are two parts required in the `POST` data object when creating a call to the Finding API, `source` (string) and `keywords` (List):
+```
+{
+  "source": "string",
+  "keywords": [
+    "string"
+  ]
+}
+```
+The `source` value must be one of the 
+
+ 
 
 ```
 {
