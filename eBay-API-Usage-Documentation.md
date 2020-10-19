@@ -13,4 +13,8 @@
 [addItem](https://developer.ebay.com/api-docs/buy/browse/resources/shopping_cart/methods/addItem) POST `/shopping_cart/add_item`
 
 
- 
+ # IMPORTANT
+The eBay PythonSDK requires a couple of OS packages to parse XML. If you are using Linux, you will need to run:
+```
+sudo apt-get install libxml2-dev libxslt-dev
+```
