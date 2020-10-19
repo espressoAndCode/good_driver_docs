@@ -22,7 +22,7 @@ Here is a sample call to the Finding API:
              )
 ```
 
-Here is a sample return object for a call to the Finding API
+Here is a sample return object for one item from that call:
 
 ```
  res: {
