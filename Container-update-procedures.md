@@ -1,4 +1,17 @@
 # Container update procedures
+### Set the following environment variable
+
+This defines the base URL for AJAX requests from the React app. 
+ 
+```
+$ export REACT_APP_USERS_SERVICE_URL=http://localhost:5001
+```
+**PRO TIP** - put this in your `.bashrc` file so you don't have to enter it every time you open a shell. It becomes a pain, and I promise that you'll forget.
+
+If you do it this way, be sure to add double quotes around the value like this:
+```
+export REACT_APP_USERS_SERVICE_URL="http://localhost:5001"
+```
 
 ### Clear out the Existing Docker Artifacts
 
