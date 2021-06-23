@@ -19,6 +19,7 @@
 -	update the rules for generating their product catalog
 
 **Admin:**
+
 -	can log in
 -	review/update admin profile
 -	review/update the status of
