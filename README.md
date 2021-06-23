@@ -1,5 +1,7 @@
-# Good Driver Rewards App
+# Good (Truck) Driver Incentive Program
 
 ## Project Description
 
-Your company has been hired by an entrepreneur to build a software system for the trucking industry. Specifically, an application that can be used to incentivize the improvement of truck drivers. Your client wants to sell a software service to the companies that hire truck drivers (referred to as sponsors below). These companies hire drivers. To encourage better driving, the companies are going to award points to drivers for behaviors they want to encourage; and possibly take away points for bad behaviors. The program is much like many reward programs where you earn points for doing things the rewarder wants you to do. In this application, the sponsors will maintain a catalog of (think Amazon, but much smaller) where the drivers can redeem their points.  Since your entrepreneurial client has no revenue flow, you’re doing this project “on spec” for a percentage of future redemptions (which means you really want to know how bought what for how much).
+This project is a minimum viable product (MVP) software application for the trucking industry designed to incentivize improvement of road safety from truck drivers. 
+
+This is a software-as-a-service (SaaS) application that can be marketed to companies that hire truck drivers, and who are referred to as sponsors below. Like most reward programs, the user earns points for engaging in a desired behavior. To encourage better driving, the sponsor companies can award points to drivers for behaviors that they want to encourage, and possibly deduct points for bad behaviors. This application allows the sponsors to maintain a catalog of products from which the drivers can redeem their points. 
