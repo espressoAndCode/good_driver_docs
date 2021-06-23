@@ -15,18 +15,18 @@
 -	approve or reject driver applications
 -	register/update/revoke driver information, including points and personal information
 -	review/update their product catalog
--	checkout items on behalf of  a driver.
+-	checkout items on behalf of a driver
 -	update the rules for generating their product catalog
 
 **Admin:**
 -	can log in
 -	review/update admin profile
 -	review/update the status of
-o	any sponsor companies
-o	any driver
-o	any admin
+  -	any sponsor companies
+  -	any driver
+  -	any admin
 -	add new admins, drivers and sponsors
 -	generates reports to track the fees and other operational parameters of the system, at a minimum, there must be reports for
-o	sales over time, summarized by month
-o	sales by sponsor, summarized by month
-o	purchases by driver, summarized by sponsor
+  -	sales over time, summarized by month
+  -	sales by sponsor, summarized by month
+  -	purchases by driver, summarized by sponsor
