@@ -9,13 +9,20 @@ This is a software-as-a-service (SaaS) application that can be marketed to compa
 ## Table of Contents
 
 [Developer Instructions](.//Developer-Instructions.md)
+
 [Container Update Instructions](./Container-update-procedures.md)
+
 [eBay API Instructions](./eBay-API-Usage-Documentation.md)
+
 [Server-side Unit Testing](./Server-side-Unit-Testing.md)
+
 [Style Guides](./Style-Guide-Reference.md)
+
 [Code Repo Best Practices](./Code-repo-guidelines-and-best-practices.md)
+
 [Developer References](./Developer-References.md)
 
 ## Project References
 [Initial Project Requirements](./Initial-Requirements.md)
+
 [Database Entity Relation Diagram](./Database-Entity-Relation-Diagram.md)
