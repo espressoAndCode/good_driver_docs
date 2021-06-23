@@ -1,4 +1,4 @@
-# Good Driver Docs
+# Good Driver Rewards App
 
 ## Project Description
 
