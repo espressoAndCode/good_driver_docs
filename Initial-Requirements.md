@@ -1,8 +1,8 @@
-**Drivers can:**
+**Drivers:**
 -	can log in
 -	review/update their user profile and password
 -	browse products in their sponsor company's catalog
--	"purchase" these products using their points
+-	purchase these products using their points
 -	review their point status
 -	review the status of their purchases
 -	cancel/update purchases
@@ -27,6 +27,6 @@
     -	any admin
 -	add new admins, drivers and sponsors
 -	generates reports to track the fees and other operational parameters of the system, at a minimum, there must be reports for
-  *	sales over time, summarized by month
-  *	sales by sponsor, summarized by month
-  *	purchases by driver, summarized by sponsor
+    - sales over time, summarized by month
+    - sales by sponsor, summarized by month
+    - purchases by driver, summarized by sponsor
