@@ -22,13 +22,11 @@
 -	can log in
 -	review/update admin profile
 -	review/update the status of
-
-  -	any sponsor companies
-  -	any driver
-  -	any admin
+  *	any sponsor companies
+  *	any driver
+  *	any admin
 -	add new admins, drivers and sponsors
 -	generates reports to track the fees and other operational parameters of the system, at a minimum, there must be reports for
-
-  -	sales over time, summarized by month
-  -	sales by sponsor, summarized by month
-  -	purchases by driver, summarized by sponsor
+  *	sales over time, summarized by month
+  *	sales by sponsor, summarized by month
+  *	purchases by driver, summarized by sponsor
