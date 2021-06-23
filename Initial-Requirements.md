@@ -22,6 +22,7 @@
 -	can log in
 -	review/update admin profile
 -	review/update the status of
+  -	stuff
   -	any sponsor companies
   -	any driver
   -	any admin
